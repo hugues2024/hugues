@@ -97,7 +97,7 @@ export const personalInfo = [
   {
     id: 7,
     title: 'Phone : ',
-    description: '+2290146097120',
+    description: '+229 0146097120',
   },
 
   {

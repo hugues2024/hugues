@@ -90,7 +90,12 @@
   height: 160px;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .contact__button-icon {
     font-size: var(--h3-font-size);
     line-height: 64px;
+    cursor: pointer;
 }

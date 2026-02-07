@@ -10,6 +10,7 @@ import {
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
+import { personalInfo } from '../../data';
 
 import "./contact.css"
 
@@ -34,7 +35,7 @@ const Contact = () => {
 
               <div>
                 <span className="info__title">Mail me</span>
-                <h4 className="info__desc">steve@mail.com</h4>
+                <h4 className="info__desc"><a href="mailto:hounkpatindewanouhuguesmarie@gmail.com">hounkpatindewanouhuguesmarie@gmail.com</a></h4>
               </div>
             </div>
 
@@ -43,7 +44,7 @@ const Contact = () => {
 
             <div>
               <span className="info__title">Call me</span>
-              <h4 className="info__desc">+226 21 184 010</h4>
+              <h4 className="info__desc"><a href="tel:+2290146097120">+229 0146097120</a></h4>
             </div>
           </div>
           </div>
