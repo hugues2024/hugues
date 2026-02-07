@@ -6,12 +6,21 @@
 }
 
 .home__img {
-    height: 100% !important;
+    width: 400px; /* Ou une taille fixe pour garantir le cercle */
+    height: 400px; /* Doit être égal à la largeur */
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 50%; /* Arrondi total */
+    border: 5px solid var(--first-color); /* Bordure de ta couleur */
     box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
-    z-index: 1;
-    /* padding: 10px; */
+    /* Centrage sur l'écran */
+    display: block;
+    margin: 0 auto; 
+}
+
+.home__img:hover {
+    width: 410px; /* Ou une taille fixe pour garantir le cercle */
+    height: 410px; /* Doit être égal à la largeur */
+    cursor: pointer;
 }
 
 .home__data{ 
@@ -47,12 +56,3 @@
     margin-block: 16px 32px;
 }
 
-.color__block{
-    position: fixed;
-    height: 200%;
-    width: 100%;
-    background-color: var(--first-color);
-    top: -50%;
-    left: -83%;
-    transform: rotate(-15deg);
-}

@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Hugues',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'HOUNKPATIN',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '18 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Beninese',
   },
 
   {
@@ -91,25 +91,25 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Cotonou',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+2290146097120',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'hounkpatindewanouhuguesmarie@gmail.com',
   },
 
   {
     id: 9,
     title: 'Skype : ',
-    description: 'steve.milner',
+    description: 'hugues.hounkpatin',
   },
 
   {
@@ -150,54 +150,45 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: 'May 26 to July 25, 2025',
+    title: 'Academic Internship, <span> METEO BENIN </span>',
+    desc: " Support for IT and technical activities. Participation in the management and monitoring of digital tools. Learning about the operation of information systems in a public institution. Strengthening professional rigor and teamwork skills. Assistance with IT maintenance."
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: 'July – August 2024',
+    title: "Academic Internship, <span> ENEAM IT Department </span>",
+    desc: "Technical support for users. Maintenance of IT equipment. Support for digital and administrative activities. Participation in tasks related to IT systems. Reprogramming of an iPad. Participation in some network projects at ENEAM.",
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: 'June 2023',
+    title: 'Baccalaureate C <span> Complexe Scolaire Catholique Père Aupiais </span>',
+    desc: '',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'June 2019',
+    title: 'BEPC – Modele court <span> Complexe Scolaire Assafwa Les Élites de Fidjrossè </span>',
+    desc: '',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: 'June 2016',
+    title: "CEP <span> Complexe Scolaire Christus Redemptor d'Akogbato </span>",
+    desc: '',
   },
 ];
 
@@ -205,31 +196,31 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '90',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '75',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '75',
   },
 
   {
     id: 4,
     title: 'Php',
-    percentage: '66',
+    percentage: '75',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '95',
+    percentage: '75',
   },
 
   {
@@ -240,15 +231,91 @@ export const skills = [
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'React',
+    percentage: '60',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'Python',
+    percentage: '90',
   },
+
+  {
+    id: 17,
+    title: 'Flutter',
+    percentage: '70',
+  },
+
+  {
+    id: 18,
+    title: 'Java',
+    percentage: '70',
+  },
+
+  {
+    id: 19,
+    title: 'Database Administration',
+    percentage: '70',
+  },
+
+  {
+    id: 20,
+    title: 'Cryptography',
+    percentage: '50',
+  },
+
+  {
+    id: 9,
+    title: 'Linux',
+    percentage: '60',
+  },
+
+  {
+    id: 10,
+    title: 'Laravel',
+    percentage: '60',
+  },
+
+  {
+    id: 11,
+    title: 'MySQL',
+    percentage: '60',
+  },
+
+  {
+    id: 12,
+    title: 'UML',
+    percentage: '60',
+  },
+
+  {
+    id: 13,
+    title: 'Computer networks',
+    percentage: '60',
+  },
+
+  {
+    id: 14,
+    title: 'Maintenance',
+    percentage: '60',
+  },
+
+  {
+    id: 15,
+    title: 'Sale',
+    percentage: '60',
+  },
+
+  {
+    id: 16,
+    title: 'Physical prospecting',
+    percentage: '60',
+  },
+
+
+
+  
 ];
 
 export const portfolio = [
