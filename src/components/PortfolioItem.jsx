@@ -36,7 +36,7 @@ const PortfolioItem = ({img, title, details}) => {
                                         <span className="item__title">{title}</span>
                                         
                                         {/* On vérifie si le titre commence par "Preview" */}
-                                        {title.startsWith("Preview") ? (
+                                        {title.startsWith("Preview") || title.startsWith("Download") ? (
                                             <a href={desc} target="_blank" rel="noreferrer">
                                                 <span className="item__details">{desc}</span>
                                             </a>

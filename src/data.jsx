@@ -491,7 +491,7 @@ export const portfolio = [
       },
       {
         icon: <FiDownload />,
-        title: 'Preview : ',
+        title: 'Download : ',
         desc: 'https://drive.google.com/file/d/1z6gnUet6lxQUYzeILSHeaOPPk62e53cs/view?usp=sharing',
       },
     ],
