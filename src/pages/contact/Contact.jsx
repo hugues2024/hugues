@@ -3,9 +3,9 @@ import React from 'react'
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
-  FaFacebookF,
-  FaTwitter,
-  FaYoutube,
+  FaFacebookMessenger,
+  FaWhatsapp,
+  FaTelegram,
   FaDribbble,
 } from 'react-icons/fa';
 
@@ -50,22 +50,26 @@ const Contact = () => {
           </div>
 
           <div className='contact__socials'>
-            <a href='https://facebook.com' className='contact__social-link'>
-              <FaFacebookF />
+            {/* Messenger : utilise ton nom d'utilisateur Facebook ou l'ID de ta page */}
+            <a href='https://m.me/hugues.hounkpatin' target='_blank' rel='noreferrer' className='contact__social-link'>
+                <FaFacebookMessenger />
             </a>
 
-            <a href='https://twitter.com' className='contact__social-link'>
-              <FaTwitter />
+            {/* WhatsApp : utilise ton numéro au format international sans le + (ex: 229XXXXXXXX) */}
+            <a href='https://wa.me/2290146097120' target='_blank' rel='noreferrer' className='contact__social-link'>
+                <FaWhatsapp />
             </a>
 
-            <a href='https://youtube.com' className='contact__social-link'>
-              <FaYoutube />
+            {/* Telegram : utilise ton nom d'utilisateur sans le @ */}
+            <a href='https://t.me/hugueshounkpatin' target='_blank' rel='noreferrer' className='contact__social-link'>
+                <FaTelegram />
             </a>
 
-            <a href='https://dribbble.com' className='contact__social-link'>
-              <FaDribbble />
+            {/* Dribbble (lien vers ton profil si existant) */}
+            <a href='/' target='_blank' rel='noreferrer' className='contact__social-link'>
+                <FaDribbble />
             </a>
-          </div>
+        </div>
 
         </div>
 
