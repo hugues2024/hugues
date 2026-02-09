@@ -1,3 +1,7 @@
+.portfolio__section {
+  padding-bottom: 10%;
+}
+
 .portfolio__container {
   grid-template-columns: repeat(3, 1fr);
 }

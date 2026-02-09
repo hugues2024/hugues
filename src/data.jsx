@@ -65,7 +65,7 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Hugues',
+    description: 'Dèwanou',
   },
 
   {
@@ -439,18 +439,18 @@ export const portfolio = [
   {
     id: 8,
     img: Work8,
-    title: 'Hugues HOUNKPATIN',
+    title: 'Dèwanou HOUNKPATIN',
     type: 'web',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Hugues HOUNKPATIN',
+        desc: 'Dèwanou HOUNKPATIN',
       },
       {
         icon: <FiSmile />,
         title: 'Description : ',
-        desc: 'Site web de Hugues HOUNKPATIN',
+        desc: 'Site web de Dèwanou HOUNKPATIN',
       },
       {
         icon: <FaCode />,
