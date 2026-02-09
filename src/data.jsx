@@ -112,8 +112,8 @@ export const personalInfo = [
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'hugues.hounkpatin',
+    title: 'LinkedIn : ',
+    description: 'hounkpatin-dewanou',
   },
 
   {
