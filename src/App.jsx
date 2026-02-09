@@ -8,12 +8,8 @@ import Portfolio from './pages/portfolio/Portfolio';
 import Contact from './pages/contact/Contact';
 
 function App() {
-  // Détecte si on est sur GitHub Pages ou en local
-  const isProduction = import.meta.env.PROD;
-  const baseName = isProduction ? '/hugues' : '';
-
   return (
-    <BrowserRouter basename={baseName}>
+    <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route index element={<Home />}/>
