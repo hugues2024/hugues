@@ -74,11 +74,11 @@ export const personalInfo = [
     description: 'HOUNKPATIN',
   },
 
-  {
-    id: 3,
-    title: 'Age : ',
-    description: '18 Years',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Age : ',
+  //   description: '18 Years',
+  // },
 
   {
     id: 4,
