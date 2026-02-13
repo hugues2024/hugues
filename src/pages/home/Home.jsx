@@ -16,7 +16,7 @@ const Home = () => {
             </h1>
 
             <p className='home__description'>
-              I'm a Benin-based web developer & front-end enthusiast focused on crafting clean & user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me, combining modern technologies like React.js and Laravel.
+              As a web developer based in Benin, I specialize in creating high-performance web and mobile applications that meet specific needs. I am passionate about developing effective software that improves everyday life by combining modern technologies.
             </p>
 
             <Link to='/about' className='button'>
